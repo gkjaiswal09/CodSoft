@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height:355px;
+    width:75%;
+    background-color: rgb(160, 225, 243,0.6);
+}
+.box{
+    position: relative;
+   top:83%;
+    height:59px;
+    width:65px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation:animationX 3s linear infinite, animation 1s ease-out infinite alternate;
+
+}
+@keyframes animationX{
+   from{
+    left:0%;
+   }
+   to{
+    left:100%;
+   }
+}
+@keyframes animation{
+   from{
+    bottom:0%;
+   }
+   to{
+    top:0%;
+   }
+}

@@ -1,0 +1,36 @@
+body{
+    background-color:gray;
+}
+.outer{
+    background-color:white;
+    width:310px;
+    height:444px;
+    border-radius: 8px;
+}
+.box{
+    width:45px;
+    height:50px;
+    width:204px;
+    padding:5px;
+   
+}
+.box img{
+border-radius: 8px;
+}
+.content{
+    position: relative;
+    bottom:-120px;
+    padding:13px;
+    width:233px;
+   
+}
+.capsules{
+    position :relative;
+    left:11px;
+    bottom :-136px;
+}
+span{
+    border-radius:17px;
+    padding:10px;
+    border: 2px solid rgb(77, 74, 74);
+}
